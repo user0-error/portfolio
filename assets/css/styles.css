@@ -226,7 +226,7 @@ body.dark-theme {
   padding-inline: 1.5rem;
   border-radius: 3rem;
   transition: background 0.4s;
-  width: auto;
+
   box-sizing: border-box;
 }
 
