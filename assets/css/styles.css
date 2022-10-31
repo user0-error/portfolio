@@ -159,8 +159,13 @@ body.dark-theme {
 }
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1024px;
-  margin-inline: 1.5rem;
+  width: 100%;
+
+  top: 150px;
+  left: 0px;
+
+  padding: 15px;
+  border-radius: 10px;
   box-sizing: border-box;
 }
 
