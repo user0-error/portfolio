@@ -159,8 +159,14 @@ body.dark-theme {
 }
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1024px;
-  margin-inline: 1.5rem;
+  display: inline-block;
+  /*display: flex;
+  flex-direction: column;
+  align-items: stretch;*/
+  padding: 10px;
+
+  /* max-width: 1024px;
+  margin-inline: 1.5rem; */
 }
 
 .grid {
@@ -170,11 +176,13 @@ body.dark-theme {
 
 .section {
   padding-block: 2.5rem;
+  box-sizing: border-box;
 }
 
 .section__border {
   border-bottom: 1px solid var(--title-color);
   padding-bottom: 3.5rem;
+  box-sizing: border-box;
 }
 
 .section__title,
@@ -219,6 +227,7 @@ body.dark-theme {
   border-radius: 3rem;
   transition: background 0.4s;
   width: auto;
+  box-sizing: border-box;
 }
 
 .nav__logo,
@@ -250,6 +259,7 @@ body.dark-theme {
     padding: 2rem 1.5rem 5rem;
     border-radius: 2rem;
     transition: bottom 0.3s;
+    box-sizing: border-box;
   }
 }
 
@@ -261,6 +271,7 @@ body.dark-theme {
 
 .nav__link {
   /* ADDED PADDING */
+
   padding: 5px 5px 5px 5px;
   display: flex;
   flex-direction: column;
@@ -269,6 +280,7 @@ body.dark-theme {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
   transition: color 0.3s;
+  box-sizing: border-box;
 }
 .nav__link:hover {
   color: var(--title-color);
@@ -303,6 +315,7 @@ body.dark-theme {
 .home__container {
   row-gap: 4rem;
   padding-top: 2rem;
+  box-sizing: border-box;
 }
 
 .home__data {
@@ -369,6 +382,7 @@ body.dark-theme {
   justify-self: center;
   display: flex;
   column-gap: 1.5rem;
+  box-sizing: border-box;
 }
 
 .home__social-link {
@@ -402,6 +416,7 @@ body.dark-theme {
 
 .home__info-description {
   padding-right: 4rem;
+  box-sizing: border-box;
 }
 
 .home__info-number {
@@ -559,6 +574,7 @@ body.dark-theme {
   padding: 3.5rem 1rem;
   border-radius: 7.25rem;
   transition: background 0.4s;
+  box-sizing: border-box;
 }
 
 .services__card i {
@@ -838,6 +854,7 @@ body.dark-theme {
   background: none;
   outline: none;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .contact__form-tag {
@@ -852,6 +869,7 @@ body.dark-theme {
   font-weight: var(--font-medium);
   padding: 0.35rem;
   transition: background 0.4s;
+  box-sizing: border-box;
 }
 .contact__form-area {
   height: 10rem;
@@ -897,6 +915,7 @@ body.dark-theme {
 .footer__container {
   padding: 3rem 0 7rem;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .footer__title {
@@ -977,6 +996,7 @@ body.dark-theme {
   color: var(--title-color);
   z-index: var(--z-tooltip);
   transition: bottom 0.3s, transform 0.3s;
+  box-sizing: border-box;
 }
 
 .scrollup:hover {
@@ -1010,6 +1030,7 @@ body.dark-theme {
 
   .nav__menu {
     padding-bottom: 4rem;
+    box-sizing: border-box;
   }
 
   .nav__list {
@@ -1079,6 +1100,7 @@ body.dark-theme {
 
   .home__info-description {
     padding-right: 0;
+    box-sizing: border-box;
   }
 
   .skills__container,
@@ -1129,6 +1151,7 @@ body.dark-theme {
     column-gap: 3rem;
     margin-inline: 1.5rem;
     padding: 0;
+    box-sizing: border-box;
   }
 
   .nav__link i,
@@ -1167,6 +1190,7 @@ body.dark-theme {
   }
   .section {
     padding-block: 8rem 0;
+    box-sizing: border-box;
   }
 
   .home__title {
@@ -1199,6 +1223,7 @@ body.dark-theme {
 @media screen and (min-width: 1200px) {
   .section__border {
     padding-bottom: 6rem;
+    box-sizing: border-box;
   }
   .section__subtitle {
     margin-bottom: 5rem;
@@ -1238,6 +1263,7 @@ body.dark-theme {
   .home__social {
     padding-top: 15.5rem;
     column-gap: 2rem;
+    box-sizing: border-box;
   }
   .home__social-link {
     font-size: 1.5rem;
@@ -1293,6 +1319,7 @@ body.dark-theme {
     height: 345px;
     border-radius: 7.6rem;
     padding: 3.5rem 1.5rem;
+    box-sizing: border-box;
   }
 
   .services__card i {
@@ -1378,6 +1405,7 @@ body.dark-theme {
 
   .footer__container {
     padding: 4rem 0 3rem;
+    box-sizing: border-box;
   }
 
   .footer__list {
