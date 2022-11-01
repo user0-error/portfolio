@@ -277,7 +277,7 @@ body.dark-theme {
   transition: color 0.3s;
 }
 .nav__link:hover {
-  color: rgb(127, 65, 228);
+  color: rgb(27, 119, 194);
   /* color: var(--title-color); */
   /*added below */
   border-radius: 15%;
@@ -313,7 +313,7 @@ body.dark-theme {
 }
 
 .dark-theme .active-link {
-  color: rgb(127, 65, 228);
+  color: rgb(27, 119, 194);
 }
 /*=============== HOME ===============*/
 .home__container {
@@ -826,7 +826,7 @@ body.dark-theme {
 
 .contact__button:hover i {
   transform: translateX(0.25rem);
-  color: rgb(127, 65, 228);
+  color: rgb(27, 119, 194);
 }
 
 .contact__form {
@@ -861,9 +861,9 @@ body.dark-theme {
 .contact__form-input:focus {
   transform: translateX(12px);
   padding: 25px 25px;
-  box-shadow: 0 0 15px rgba(127, 65, 228, 0.479),
-    0 0 75px rgba(137, 73, 240, 0.377);
-  border: 1px solid rgb(127, 65, 228);
+  box-shadow: 0 0 15px rgba(65, 163, 228, 0.479),
+    0 0 75px rgba(22, 113, 150, 0.493);
+  border: 1px solid rgb(51, 164, 199);
 }
 .contact__form-tag {
   position: absolute;
@@ -948,7 +948,7 @@ body.dark-theme {
 
 .footer__link:hover {
   font-size: var(--h2-font-size);
-  color: rgb(127, 65, 228);
+  color: rgb(27, 119, 194);
   text-decoration: underline;
 }
 
@@ -1244,7 +1244,7 @@ body.dark-theme {
   transition: 0.5s;
 }
 .resume:hover {
-  color: rgb(127, 65, 228);
+  color: rgb(27, 119, 194);
   font-size: var(--normal-font-size);
 
   text-decoration: underline;
@@ -1253,7 +1253,7 @@ body.dark-theme {
 }
 .letter {
   border-radius: 100rem;
-  width: 2rem;
+  width: 2.5rem;
   display: inline-flex;
 }
 @media screen and (min-width: 1048px) {
