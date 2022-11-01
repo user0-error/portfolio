@@ -306,8 +306,8 @@ body.dark-theme {
 .active-link {
   /* font-style: italic; */
   font-weight: bold;
-
-  color: rgb(95, 95, 95);
+  color: rgb(27, 119, 194);
+  /* color: rgb(95, 95, 95); */
   /* text-decoration: underline; */
   /* color: var(--title-color); */
 }
