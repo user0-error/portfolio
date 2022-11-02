@@ -162,7 +162,6 @@ body.dark-theme {
   width: 100%;
 
   top: 150px;
-  left: 0px;
 
   padding: 15px;
   border-radius: 10px;
@@ -1177,6 +1176,12 @@ body.dark-theme {
     column-gap: 3rem;
     margin-inline: 1.5rem;
     padding: 0;
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+
+  .home__container {
+    padding-right: 5rem;
   }
 
   .nav__link i,
